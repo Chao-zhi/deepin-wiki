@@ -167,10 +167,20 @@
 ## 开发
 ### Python
 ### C/C++
+#### GCC
 ### C#
+#### .NET
+#### Mono
 ### 深度学习
+#### CUDA Toolkit
 ### IDE
+#### VSCode
 ## 内容创作
 ### 音乐
+### 图片
+#### GIMP
+#### Krita
 ### 视频
+#### Kdenlive
 ### 分布式协作
+#### Parsec
