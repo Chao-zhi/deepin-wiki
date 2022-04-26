@@ -165,16 +165,20 @@
 ### 文件系统
 
 ## 开发
-### Python
-### C/C++
-#### GCC
-### C#
+### 开发语言
+#### C/C++
+##### GCC编译器
+#### golang
+#### rust
+#### Python
+#### C#
 #### .NET
-#### Mono
+##### Mono
 ### 深度学习
 #### CUDA Toolkit
 ### IDE
 #### VSCode
+
 ## 内容创作
 ### 音乐
 ### 图片
