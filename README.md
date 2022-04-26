@@ -4,4 +4,4 @@
 
 初始思维导图见 wiki.md
 
-可以使用 [markmap](https://markmap.js.org/) 查看。
+可以使用 [markmap](https://markmap.js.org/repl) 查看。
