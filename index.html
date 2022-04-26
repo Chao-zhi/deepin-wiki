@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.7"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"Deepin Wiki","c":[{"t":"heading","d":2,"p":{"lines":[3,4]},"v":"关于 Deepin","c":[{"t":"heading","d":3,"p":{"lines":[4,5]},"v":"开发团队"},{"t":"heading","d":3,"p":{"lines":[5,6]},"v":"鸣谢"},{"t":"heading","d":3,"p":{"lines":[6,7]},"v":"如何安装","c":[{"t":"heading","d":4,"p":{"lines":[7,8]},"v":"烧录镜像"},{"t":"heading","d":4,"p":{"lines":[8,9]},"v":"引导"},{"t":"heading","d":4,"p":{"lines":[9,10]},"v":"……"}]}]},{"t":"heading","d":2,"p":{"lines":[12,13]},"v":"什么是 Linux","c":[{"t":"heading","d":3,"p":{"lines":[13,14]},"v":"linux 内核与 GUN","c":[{"t":"heading","d":4,"p":{"lines":[14,15]},"v":"起源"},{"t":"heading","d":4,"p":{"lines":[15,16]},"v":"……"}]},{"t":"heading","d":3,"p":{"lines":[16,17]},"v":"发行版","c":[{"t":"heading","d":4,"p":{"lines":[17,18]},"v":"rolling"},{"t":"heading","d":4,"p":{"lines":[18,19]},"v":"stable"}]}]},{"t":"heading","d":2,"p":{"lines":[21,22]},"v":"软件","c":[{"t":"heading","d":3,"p":{"lines":[22,23]},"v":"终端","c":[{"t":"heading","d":4,"p":{"lines":[23,24]},"v":"深度终端"}]},{"t":"heading","d":3,"p":{"lines":[24,25]},"v":"及时通讯","c":[{"t":"heading","d":4,"p":{"lines":[25,26]},"v":"QQ"},{"t":"heading","d":4,"p":{"lines":[26,27]},"v":"微信"},{"t":"heading","d":4,"p":{"lines":[27,28]},"v":"Telegram"}]},{"t":"heading","d":3,"p":{"lines":[28,29]},"v":"游戏娱乐","c":[{"t":"heading","d":4,"p":{"lines":[29,30]},"v":"Speed Dreams"},{"t":"heading","d":4,"p":{"lines":[30,31]},"v":"SuperTuxKart"},{"t":"heading","d":4,"p":{"lines":[31,32]},"v":"AssaultCube"}]},{"t":"heading","d":3,"p":{"lines":[32,33]},"v":"模拟器","c":[{"t":"heading","d":4,"p":{"lines":[33,34]},"v":"Torcs"},{"t":"heading","d":4,"p":{"lines":[34,35]},"v":"Flightgear"}]},{"t":"heading","d":3,"p":{"lines":[35,36]},"v":"数据归档及压缩","c":[{"t":"heading","d":4,"p":{"lines":[36,37]},"v":"7zip"}]},{"t":"heading","d":3,"p":{"lines":[37,38]},"v":"文件管理器","c":[{"t":"heading","d":4,"p":{"lines":[38,39]},"v":"深度文件管理器"}]},{"t":"heading","d":3,"p":{"lines":[39,40]},"v":"办公","c":[{"t":"heading","d":4,"p":{"lines":[40,41]},"v":"LibreOffice"},{"t":"heading","d":4,"p":{"lines":[41,42]},"v":"OpenOffice"},{"t":"heading","d":4,"p":{"lines":[42,43]},"v":"wps office"}]},{"t":"heading","d":3,"p":{"lines":[43,44]},"v":"安全工具","c":[{"t":"heading","d":4,"p":{"lines":[44,45]},"v":"Metasploit"}]},{"t":"heading","d":3,"p":{"lines":[45,46]},"v":"实用工具","c":[{"t":"heading","d":4,"p":{"lines":[46,47]},"v":"深度截图"},{"t":"heading","d":4,"p":{"lines":[47,48]},"v":"计算器"},{"t":"heading","d":4,"p":{"lines":[48,49]},"v":"日历"}]},{"t":"heading","d":3,"p":{"lines":[49,50]},"v":"管理工具","c":[{"t":"heading","d":4,"p":{"lines":[50,51]},"v":"gparted"}]},{"t":"heading","d":3,"p":{"lines":[51,52]},"v":"开发","c":[{"t":"heading","d":4,"p":{"lines":[52,53]},"v":"Python"},{"t":"heading","d":4,"p":{"lines":[53,54]},"v":"VSCode"},{"t":"heading","d":4,"p":{"lines":[54,55]},"v":"GCC Vim"},{"t":"heading","d":4,"p":{"lines":[55,56]},"v":"Kate Editor"},{"t":"heading","d":4,"p":{"lines":[56,57]},"v":"Ruby"}]},{"t":"heading","d":3,"p":{"lines":[57,58]},"v":"……"}]},{"t":"heading","d":2,"p":{"lines":[59,60]},"v":"硬件","c":[{"t":"heading","d":3,"p":{"lines":[60,61]},"v":"CPU","c":[{"t":"heading","d":4,"p":{"lines":[61,62]},"v":"指令集和架构","c":[{"t":"heading","d":5,"p":{"lines":[62,63]},"v":"x86","c":[{"t":"heading","d":6,"p":{"lines":[63,64]},"v":"zen"},{"t":"heading","d":6,"p":{"lines":[64,65]},"v":"alder lake"}]},{"t":"heading","d":5,"p":{"lines":[65,66]},"v":"ARM"},{"t":"heading","d":5,"p":{"lines":[66,67]},"v":"MIPS"},{"t":"heading","d":5,"p":{"lines":[67,68]},"v":"LoongArch"}]},{"t":"heading","d":4,"p":{"lines":[68,69]},"v":"频率与前端总线（FSB）"},{"t":"heading","d":4,"p":{"lines":[69,70]},"v":"内存控制器"}]},{"t":"heading","d":3,"p":{"lines":[70,71]},"v":"GPU","c":[{"t":"heading","d":4,"p":{"lines":[71,72]},"v":"图形计算API","c":[{"t":"heading","d":5,"p":{"lines":[72,73]},"v":"DirectX"},{"t":"heading","d":5,"p":{"lines":[73,74]},"v":"Vulkan"},{"t":"heading","d":5,"p":{"lines":[74,75]},"v":"OpenGL"},{"t":"heading","d":5,"p":{"lines":[75,76]},"v":"OpenCL"},{"t":"heading","d":5,"p":{"lines":[76,77]},"v":"Cuda"}]}]},{"t":"heading","d":3,"p":{"lines":[77,78]},"v":"RAM","c":[{"t":"heading","d":4,"p":{"lines":[78,79]},"v":"通道数"},{"t":"heading","d":4,"p":{"lines":[79,80]},"v":"内存大小"},{"t":"heading","d":4,"p":{"lines":[80,81]},"v":"内存频率"}]},{"t":"heading","d":3,"p":{"lines":[81,82]},"v":"存储介质","c":[{"t":"heading","d":4,"p":{"lines":[82,83]},"v":"机械硬盘"},{"t":"heading","d":4,"p":{"lines":[83,84]},"v":"固态硬盘"},{"t":"heading","d":4,"p":{"lines":[84,85]},"v":"U盘"},{"t":"heading","d":4,"p":{"lines":[85,86]},"v":"光驱"}]},{"t":"heading","d":3,"p":{"lines":[86,87]},"v":"打印机"},{"t":"heading","d":3,"p":{"lines":[87,88]},"v":"扫描仪"},{"t":"heading","d":3,"p":{"lines":[88,89]},"v":"输入设备","c":[{"t":"heading","d":4,"p":{"lines":[89,90]},"v":"鼠标"},{"t":"heading","d":4,"p":{"lines":[90,91]},"v":"触控板"},{"t":"heading","d":4,"p":{"lines":[91,92]},"v":"键盘"},{"t":"heading","d":4,"p":{"lines":[92,93]},"v":"摄像头"}]},{"t":"heading","d":3,"p":{"lines":[93,94]},"v":"主板和BIOS","c":[{"t":"heading","d":4,"p":{"lines":[94,95]},"v":"legacy"},{"t":"heading","d":4,"p":{"lines":[95,96]},"v":"UEFI"}]},{"t":"heading","d":3,"p":{"lines":[96,97]},"v":"其他PCI-E设备","c":[{"t":"heading","d":4,"p":{"lines":[97,98]},"v":"视频/音频采集卡"}]},{"t":"heading","d":3,"p":{"lines":[98,99]},"v":"调制解调器"}]},{"t":"heading","d":2,"p":{"lines":[101,102]},"v":"网络"},{"t":"heading","d":2,"p":{"lines":[104,105]},"v":"系统管理"}]})</script>
+</body>
+</html>
